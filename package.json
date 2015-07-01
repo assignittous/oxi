@@ -5,7 +5,7 @@
   "main": "index.js",
   "bin": {
     "oxi": "cli.js"
-  },  
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,7 +23,9 @@
     "chalk": "^1.0.0",
     "coffee-script": "^1.9.3",
     "commander": "^2.8.1",
+    "cson": "^3.0.1",
     "docxtemplater": "^1.0.5",
+    "js-yaml": "^3.3.1",
     "sugar": "^1.4.1",
     "xlsx-injector": "0.0.1"
   },
@@ -34,6 +36,6 @@
     "gulp-inject-string": "0.0.2",
     "gulp-plumber": "^1.0.1",
     "gulp-task-master": "^1.0.0",
-    "moment": "^2.10.3"    
+    "moment": "^2.10.3"
   }
 }
