@@ -7,6 +7,64 @@ Oxi works as a CLI or as a library.
 # Basics
 
 
+## Excel
+
+```coffeescript
+
+oxi = require("oxi")
+
+
+data =
+  firstName: "Joe"
+  lastName: "Dirt"
+
+options =
+  template: "./template.xlsx"
+  output: "./output.xlsx"
+  data: data
+  
+oxi.xlsx options 
+
+```
+
+## Word
+
+```coffeescript
+
+oxi = require("oxi")
+
+data =
+  firstName: "Joe"
+  lastName: "Dirt"
+
+options =
+  template: "./template.docx"
+  output: "./output.docx"
+  data: data
+  
+oxi.docx options 
+
+```
+
+## Powerpoint
+
+```coffeescript
+
+oxi = require("oxi")
+
+
+data =
+  firstName: "Joe"
+  lastName: "Dirt"
+
+options =
+  template: "./template.pptx"
+  output: "./output.pptx"
+  data: data
+  
+oxi.pptx options 
+
+```
 
 
 
@@ -20,13 +78,12 @@ Oxi works as a CLI or as a library.
 # Changelog
 
 
-## 0.0.2
 
-* Fix some package problems
+## Prereleases
 
-## 0.0.1
+## 0.0.4
 
-* Initial pre-release
+* Doc updates
 
 # GOTCHAS
 
