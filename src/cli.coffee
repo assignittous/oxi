@@ -38,7 +38,7 @@ if program.data? && program.template? && program.output?
   if path.extname(program.output) == path.extname(program.template)
     docType = path.extname(program.output)
     dataType = path.extname(program.data)    
-    console.log docType
+    
     if (program.template == program.output)
       logger.warn "Template and output are the same, a suffix will be added to the output file"
       program.output = program.output.replace("#{docType}","-#{moment().format("YYYYMMDDhhmmss")}#{docType}")
