@@ -8,6 +8,7 @@ Outputs messages to the console.
 'use strict'
 
 chalk = require('chalk')
+moment = require('moment')
 # require 'sugar'
 
 
@@ -22,7 +23,7 @@ exports.Logger = {
   completed: ()->
     return @log.join("\n")
   append: (type, msg)->
-    entry = "[#{Date.create().format('{HH}:{mm}:{ss}')}] #{type} #{msg}"
+    entry = "[#{moment().format('hh:mm:ss')}] #{type} #{msg}"
     @log.push chalk.stripColor(entry)
     console.log entry
   debug: (msg)->
