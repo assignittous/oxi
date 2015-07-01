@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/assignittous/knodeo_for_office.git"
+    "url": "https://github.com/assignittous/oxi.git"
   },
   "author": "Steven Ng",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/assignittous/knodeo_for_office/issues"
+    "url": "https://github.com/assignittous/oxi/issues"
   },
-  "homepage": "https://github.com/assignittous/knodeo_for_office",
+  "homepage": "https://github.com/assignittous/oxi",
   "dependencies": {
     "chalk": "^1.0.0",
     "coffee-script": "^1.9.3",
