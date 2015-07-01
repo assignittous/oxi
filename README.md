@@ -1,5 +1,6 @@
-# knodeo_for_office
-Knodeo tools for generating Office documents
+# Oxi
+
+Oxi (Office XML Injector) is a simple tool/library for injecting JSON data into Microsoft Office XML document templates - `docx`, `xlsx`, `pptx`
 
 # GOTCHAS
 
