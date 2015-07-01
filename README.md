@@ -4,6 +4,11 @@ Oxi (Office XML Injector) is a simple tool/library for injecting JSON data into 
 
 # Changelog
 
+
+## 0.0.2
+
+* Fix some package problems
+
 ## 0.0.1
 
 * Initial pre-release
