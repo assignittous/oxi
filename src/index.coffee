@@ -1,4 +1,1 @@
-# index.coffee
-
-
-module.exports = require("./lib/injector")
+module.exports = require("./lib/injector_wrapper").injector
