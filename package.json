@@ -1,6 +1,6 @@
 {
   "name": "oxi",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "Knodeo Tools for office",
   "main": "index.js",
   "bin": {
