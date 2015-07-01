@@ -14,6 +14,10 @@ If you want to use the CLI:
 
 # Basics
 
+Coming soon!
+
+
+# Sample Code
 
 ## Excel
 
@@ -78,23 +82,32 @@ oxi.pptx options
 
 # CLI
 
+Make sure you installed the npm globally (`npm install oxi -g`) if you want to use the CLI.
 
+Syntax:
 
+```
+oxi --template filename1.ext --output filename2.ext --data datafile.ext
 
+oxi -t filename1.ext -o filename2.ext -d datafile.ext
+```
+
+Rules:
+
+* Template and output file extensions must be `.xlsx`, `.docx` or `.pptx`
+* Data file must be `.cson`, `.json`, `.yml` or `.yaml`
+* Both the template and output filename extensions must match
 
 
 # Changelog
 
+## 0.1.0
+
+* Initial release
 
 
-## Prereleases
+# Caveats
 
-## 0.0.4
-
-* Doc updates
-
-
-# GOTCHAS
-
+* Excel substitution currently only works on the first sheet
 * Docxtemplater can't coexist with Sugar.js 
 
