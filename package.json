@@ -1,0 +1,39 @@
+{
+  "name": "oxi",
+  "version": "0.1.0",
+  "description": "Knodeo Tools for office",
+  "main": "index.js",
+  "bin": {
+    "oxi": "cli.js"
+  },  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/assignittous/knodeo_for_office.git"
+  },
+  "author": "Steven Ng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/assignittous/knodeo_for_office/issues"
+  },
+  "homepage": "https://github.com/assignittous/knodeo_for_office",
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "coffee-script": "^1.9.3",
+    "commander": "^2.8.1",
+    "docxtemplater": "^1.0.5",
+    "moment": "^2.10.3",
+    "sugar": "^1.4.1",
+    "xlsx-injector": "0.0.1"
+  },
+  "devDependencies": {
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-coffee": "^2.3.1",
+    "gulp-inject-string": "0.0.2",
+    "gulp-plumber": "^1.0.1",
+    "gulp-task-master": "^1.0.0"
+  }
+}
