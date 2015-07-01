@@ -25,7 +25,6 @@ Coming soon!
 
 oxi = require("oxi")
 
-
 data =
   firstName: "Joe"
   lastName: "Dirt"
@@ -63,7 +62,6 @@ oxi.docx options
 ```coffeescript
 
 oxi = require("oxi")
-
 
 data =
   firstName: "Joe"
