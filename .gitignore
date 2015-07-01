@@ -5,6 +5,10 @@ logs
 *.xlsx
 *.docx
 *.pptx
+*.cson
+*.json
+*.yaml
+*.yml
 # Runtime data
 pids
 *.pid
