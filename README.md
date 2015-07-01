@@ -4,6 +4,14 @@ Oxi (Office XML Injector) is a simple tool/library for injecting JSON data into 
 
 Oxi works as a CLI or as a library.
 
+# Installation
+
+`npm install oxi [--save]`
+
+If you want to use the CLI:
+
+`npm install oxi -g`
+
 # Basics
 
 
@@ -84,6 +92,7 @@ oxi.pptx options
 ## 0.0.4
 
 * Doc updates
+
 
 # GOTCHAS
 
