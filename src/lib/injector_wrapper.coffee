@@ -1,5 +1,6 @@
 
 fs = require('fs')
+_ = require "lodash"
 
 Docxtemplater = require('docxtemplater')
 
@@ -31,9 +32,9 @@ exports.injector = {
     # this require is here because docxtemplater can't coexist with sugar
     XlsxTemplate = require('xlsx-injector')
     workbook = new XlsxTemplate(options.template)
-    # todo: sheet handling needs to be better
-    sheetNumber = 1
-    workbook.substitute sheetNumber, options.data
+    # iterate into all sheets
+    _.forEach workbook.sheets, (sheet)->
+      workbook.substitute sheet.id, options.data
     workbook.writeFile(options.output)
 
 

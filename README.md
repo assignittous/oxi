@@ -99,6 +99,12 @@ Rules:
 
 # Changelog
 
+## 0.1.2
+* Token substitution now works across all worksheets in an Excel workbook
+
+## 0.1.1
+* Cleanup and minor fixes
+
 ## 0.1.0
 
 * Initial release
